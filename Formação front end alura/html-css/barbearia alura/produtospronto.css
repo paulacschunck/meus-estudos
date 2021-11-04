@@ -1,0 +1,40 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;   
+}
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top:110px;
+	right:0;
+}
+
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration-line: none;
+}
+
+.produtos {
+    width: 1000px;
+    padding: 0 auto;
+}
+.produtos li {
+    display: inline-block;
+    align-items: center;
+}
+@media screen and (max-width: 480px){/*media query, entrega para vários formatos de tela*/
+	
+	
+}
