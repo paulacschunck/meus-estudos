@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Primeiro SPA</title>
+  <!--a aqui vai o css -->
+</head>
+
+<body>
+    <div id="app">
+        <h1>Hello SPA!</h1>
+        <nav>
+          <router-link to="/">Home</router-link>
+          <router-link to="/sobre">Sobre</router-link>
+          <router-link to="/contato">Contato</router-link>
+        </nav>
+        <div class="transition">
+          <transition
+                      enter-active-class="animated fadeIn"
+                      leave-active-class="animated fadeOutRight">
+            <router-view></router-view>
+          </transition>
+        </div>
+      </div>
+
+      var home = {template: '<div>home</div>'}
+      var sobre = {template: '<div>sobre</div>'}
+      var erro = {template: '<div>erro</div>'}
+      
+      var routes = [
+        { path: '/', component: home },
+        { path: '/sobre', component: sobre },
+        { path: '*', component: erro }
+      ]
+      
+      var router = new VueRouter({
+        routes
+      })
+      
+      var app = new Vue({
+        el: '#app',
+        router
+      })  
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script><!--a aqui vai o javascrip -->
+
+  </body>
+</html>
