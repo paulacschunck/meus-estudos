@@ -1,7 +1,5 @@
-var pais = 'Brasil'
-console.log(`Vivendo em ${pais}.`)
-if (pais != 'Brasil')
-{ console.log('Você é estrangeiro!')
-} else {
-  console.log ('Você é brasileiro!')
+function validar () {
+  var pais = document.getElementById('pais')
+  var res = docuemnt.getElementById('res')
+  res.innerHTML = `<p>Você vive no país : ${pais}.</p>`
 }
