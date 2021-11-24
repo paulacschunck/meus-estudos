@@ -1,7 +1,6 @@
 body {
   background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
 }
 h1 {
     color:brown;
@@ -15,9 +14,4 @@ h1 {
 .link {
   text-decoration: none;
   color:seagreen;
-}
-footer {
-  display: flex;
-  justify-content
-
 }
