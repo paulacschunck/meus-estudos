@@ -1,0 +1,29 @@
+span,
+a,
+strong {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+a {
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+  border: 2px solid  #006400;}
+
+h1,
+p,
+h2,
+div {
+  border: 3px solid rgba(255, 0, 0, 0.5);
+  display: inline;
+  padding: 30px;
+}
+/*.botao {
+  display: inline;
+  padding: 10px;
+}*/
+.enviar {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 40px;
+
+}
