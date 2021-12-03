@@ -1,25 +1,12 @@
- /* estilos de grid*/
-
-.grid {
+.grid { /* estilos de grid*/
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(2,1fr) /* 2x repete 1fr*/
-
-}
-/* .preco {
-  grid-row: 3;
-  grid-column: 2; 
-  grid-area: 2/2; /*atalho para grid row e grid column
-}   
-*/
-.titulo {
-  grid-column: 1/3;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  place-items: start end;
 }
 .foto {
-  grid-column: 1;
-  grid-row: 2/5;
+  grid-column: 1/3;  
 }
-
 
 
 
