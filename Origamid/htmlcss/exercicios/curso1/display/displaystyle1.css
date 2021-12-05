@@ -1,0 +1,61 @@
+body {
+  background: #ddf440 ;
+  border: 3px solid #ddf440;
+  
+  }
+
+h1 {
+  background: #b8860b;
+  width: 300px;
+  border: 3px solid #9932cc;
+  padding: 60px;/* afastei o conteúdo da sua borda*/
+  text-align: center; /* alinhei o conteúdo ao centro da caixa*/
+  margin-left: 600px;
+}
+
+a,
+strong {
+   background:#f4a460;
+   border: 4px solid #ed9121;
+   text-decoration: none;
+   color:#512f11;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+
+a {
+  padding: 5px; /*aumenta o espaço interno entre o elemento e sua própria borda*/
+  margin: 5px;
+  /*margin: 100px;distancia um elemento dos demais elementos*/
+  /*display: block;
+ coloca cada elemento uma linha abaixo, sem érmitir que um elemento fique ao lado. */  
+}
+
+p{
+  /*display: inline; ele busca completar a linha, se o elemento anterior for inline ele sobe se for block ele vai se encaixar na linha que conseguir espaço. */
+  background:#20b2aa;
+  border: 4px solid #bc8f8f;
+}
+div {
+  border: 2px solid #ec2300;
+  background:#ffc1c2;
+  margin: 1px;
+  }
+span {
+  /* display: inline-block; */
+  border: 3px solid #5d4231;
+  background:#a28979;
+}
+
+.divdiv {
+  border: 3px solid #6f1abd;
+  background:#b878ed;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+}
+.linkcurso {
+  margin: 30px;
+  padding: 20px;
+  background-color: #ff9f40;
+  font-size: 20px;
+}
