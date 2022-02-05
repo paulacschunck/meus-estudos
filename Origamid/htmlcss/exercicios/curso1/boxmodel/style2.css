@@ -1,4 +1,16 @@
 h1 {
   font-size: 25px;
   background-color: #aaaaab;
+  height: 300px;
+  width: 300px;
+  border: solid 10px #135329;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+a {
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+  padding: 10px;
+  margin-top: 10px;
 }
