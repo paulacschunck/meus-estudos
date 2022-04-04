@@ -1,6 +1,9 @@
 img {
   max-width: 100%;
- 
+}
+
+div {
+  width: 200px;
 }
 
 body {
