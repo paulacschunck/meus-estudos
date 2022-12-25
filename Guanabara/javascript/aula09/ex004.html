@@ -21,13 +21,14 @@
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
     <div id="msg">DIV 1 Clique em mim</div>
     <script>
-        /*var p1 = document.getElementsByTagName('p')[0]        
-        var d = document.getElementById('msg')
-        d.style.background = '#ff4757';
-        d.innerText= 'Alteramos o texto da DIV 1'*/
-        var n1 = window.document.querySelector('div#msg')
-        n1.style.color = 'blue'
-        n1.style.background = '#808e9b'
+        const corpo = window.document.body
+        const p1= document.getElementsByTagName('p')[0]
+        const divided = window.document.getElementById('msg')
+
+        divided.style.background = 'darkblue'
+        divided.innerText = 'Estou aguardando...'
+        
+        
     </script>
     
 </body>
